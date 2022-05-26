@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yrsa:wght@300&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='Home/css/home.css')}}" >
+    <title>Home</title>
+</head>
+<body>
+
+    
+    <!-- Adding the navigator -->
+    <nav class="main-nav" id="main-nav">
+        <nav class="left-nav" id="left-nav">
+            <a href="/" class="home"> Home </a>
+            <a href="/about" class="about"> About </a>
+            <a href="/contact" class="contact"> Contact </a>
+            <a href="/projects" class="projects"> Projects </a>
+            <a href="" class="internship"> Internship </a>
+        </nav>
+        
+    </nav> 
+
+    <nav class="right-nav" id="right-nav">
+
+    </nav>
+    {% block contents %}
+
+    <!-- The contents inside the block is ommited... -->
+
+    <!-- Initial display -->
+    <div class="initial-div" id="initial-div">
+        <p> I am here to create meaninful and lasting relationship with my clients. </p> <br> 
+
+        <h2 class="build-para"> LET'S BUILD SOMETHING <br> 
+              AMAZING TOGETHER   
+        </h2> <br> 
+
+        <input type="button" class="contact-me" value="CONTACT ME"> 
+        <input type="button" value="PROJECTS" class="see-projects"> 
+
+    </div>
+
+    <!-- Adding the first section -->
+    <div class="first-section" id="first-section">
+        
+        <!-- Professional Summary -->
+        <div class="i-section">
+            <div class="image-div" id="image-div">
+                <img src="{{url_for('static', filename='Home/images/image.jpg')}}" alt="" class="image-file" srcset="">
+            </div>
+    
+            <div class="text-div" id="text-div">
+                <h3 class="heading-para"> Professional Summary </h3>
+                <p> 
+                    <b> Mbonu</b> Chinedum is an experienced <b> full stack </b> software, and chemical engineering 
+                    student with over 5 years of experience in the software industry <br> 
+    
+                    Mbonu Chinedum possess a passion for developing <b>innovative</b> programs that expedite the efficiency and 
+                    effectiveness of an organization, he is well versed in <b> Engineering </b>, process control, process design, and also good 
+                    at writing clean and maintainable code to create systems that are <b> reliable </b> and <b> user friendly </b>. <br> 
+    
+                    He is a <b>Skilled </b> leader, a <b> confident </b> communicator and a strategic thinker who has proven the ability to motivate, 
+                    educate and manage a team of professionals in building software and robust <b> engineering systems </b> that meets a company's needs, 
+                    and highlights their cor compentencies to further success. <br> 
+                </p>
+    
+            </div>  <br> 
+        </div>
+    </div>
+
+    <div class="second-section">
+
+        <!-- Technical Skills -->
+        <div class="ii-section">
+            <div class="img-div-2">
+                <img src="{{url_for('static', filename='Home/images/process.jpg')}}" class="process" alt="" srcset="">
+    
+            </div>
+            <div class="text-div-2" id="text-div-2">
+                <h3 class="heading-para-2"> Chemical Engineering Skills </h3>
+                <p class="para-2"> 
+                    <ul>
+                        <li>
+                            <b>Industrial Safety Methods and Environmental Control:</b> Posses the skills on Emergency
+                            control, fire prevention, safe use of tools and equipment, Effluent treatment and disposal,
+                            Dust control, Noise control, First aid and medical services, proper use of personal protective
+                            equipment’s(PPE’s), Early Vapor detection and warnings systems, process safety
+                            management, hazard, and information analysis. <br> 
+                        </li>
+
+                        <li> 
+                            <b> Sources, Identification, Uses, Handling, and Classification:</b> Good with the handling of
+                            raw materials, precursors, reagents, and fine chemicals <br> 
+                        </li>
+
+                        <li>
+                            <b> Identification and Classification of Machinery: </b> Proper use of the relevant machines and
+                            equipment used in the course of training, equipment and machine parts description, plant
+                            layout and working environment. <br>
+                        </li>
+
+                        <li> 
+                            <b>Feeds and Product Analysis: </b> Good with Characterization technologies, Applications
+                            testing methods, data preparation, cleaning, analysis, and interpretation. <br> 
+                            Also good with performance evaluation methods, and quality control procedures.
+                        </li>
+
+                        <li>
+                            <b> Process Design, Maintenance and Simulations:</b> Good in process design software’s and
+                            applications (Hysys 2.3, SolidWorks 2013, AutoCAD 2015), process simulation software’s
+                            and application, Process routine maintenance, troubleshooting and repair. <br> 
+                        </li>
+
+                        <li> 
+                            <b> Product Management: </b> Good with supply, storage and utilization, reduction of waste
+                            analysis, recycling of waste process, prevent maintenance, plant utilities electricity and
+                            water supply, Control of atmospheric conditions.
+                        </li>
+
+                        <li> 
+                            <b> Marketing Experience: </b> Labelling, advertisement, and packaging of finished products.
+                        </li>
+                    </ul>
+
+
+                     
+                </p>
+    
+            </div>
+
+        </div>
+        
+
+        
+
+    </div>
+
+    <!-- Software Engineering Skills -->
+    <div class="software-eng" id="software-eng">
+        <h3 class="heading-para-eng"> Software Engineering Skills </h3>
+
+        <!-- images -->
+        <div class="img-div-3"> 
+            <img src="{{url_for('static', filename='Home/images/software.jpg')}}" alt="" srcset="" class="software-image">
+        </div>
+
+        <div class="software-div">
+            <ul>
+                <li>
+                    <b> Programming Languages:</b> Python, Java, Nodejs, C/C++, JavaScript, Html/CSS. <br> 
+                    
+                </li>
+
+                <li> 
+                    <b> Software and Operating System: </b> Vs Code, Eclipse, Pycharm, Atom, Sublime Text, Git,
+                    Anaconda, Spyder, Linux, Windows. <br> 
+                </li>
+
+                <li>
+                    <b> Cloud Technologies: </b> Google Cloud, Linode Cloud Services, Amazon web services(AWS), Unix
+                    server administration ( VMs, Ubuntu, Debian and Debian based distributions, Red Hat Enterprise
+                    Linux(RHEL), CLI, Bash Scripting, package management tools, ssh), Apache, Nginx, Git versioning. <br> 
+                </li>
+
+                <li> 
+                    <b> Frameworks: </b> Python-Flask, Django, Bootstrap. <br> 
+                </li>
+
+                <li> 
+                    <b> Groupware / Collaboration: </b> Slack, IRC, Click up, Microsoft Teams, Zoom, Google+, Google Docs,
+                    Google Sheets.
+                </li>
+
+                <li> 
+                    <b> Microsoft Applications: </b> Microsoft word, Microsoft Excel, Microsoft PowerPoint, Microsoft
+                    outlook.
+                </li>
+
+                <li> 
+                    <b> Additional: </b> Familiar with MySQL, MongoDB, Embedded systems, Arduino Uno and Raspberry pi,
+                    Artificial Intelligence, Machine Learning, Data Analysis, Data Cleaning, modelling and Deployment.
+                </li>
+            
+
+            </ul>
+
+        </div>
+    </div>
+
+    <!-- Third section -->
+    <div class="third-section" id="third-section">
+        <p class="heading-para-3"> Software Engineering Certifications. </p> 
+        <div class="pdf-div-1">
+            
+            <div class="google-div">
+                <p class="google-para"> <b> Google Certification </b></p>
+                <embed src="{{url_for('static', filename='Home/pdf/google.pdf')}}" class="google" /> <br> 
+                <input type="button" class="download-pdf-btn" value="Download Certification">
+
+            </div>
+            <div class="facebook-div">
+                <p class="facebook-para"> <b> Facebook Certification </b> </p>
+                <embed src="{{url_for('static', filename='Home/pdf/facebook.pdf')}}" class="facebook" /> <br>
+                <input type="button" class="download-pdf-btn" value="Download Certification">
+            </div>
+            <div class="spe-div">
+                <p class="spe-para"> <b> SPE Certification </b> </p>
+                <embed src="{{url_for('static', filename='Home/pdf/spe_cert.pdf')}}" class="spe" height="582px"/> <br>
+                <input type="button" class="download-pdf-btn spe-btn" value="Download Certification"> 
+
+            </div>
+            
+        </div>
+
+        <div>
+
+        </div>
+
+    </div>
+    {% endblock %}
+
+            <!-- Adding the footer section -->
+        <div class="footer" id="footer">
+            <div class="f-footer">
+            <ul>
+                <li> <a href="#"> <b> Resources </b> </a> <hr> </li>
+                <li> <a href="#"> FAQ </a> </li>
+                <li> <a href="#"> Store </a> </li>
+                <li> <a href="#"> Help Center </a> </li>
+                <li> <a href="#"> Community </a> </li>
+                <li> <a href="#"> Branding </a> </li>
+                <li> <a href="#"> Media Assets </a> </li>
+            </ul>
+            </div>
+
+            <div class="s-footer">
+                <ul>
+                <li> <a href="#"> <b> Terms Of Service </b> </a> <hr> </li>
+                <li> <a href="#"> Product </a> </li>
+                <li> <a href="#"> Status </a> </li>
+                <li> <a href="#"> Privacy Policy </a> </li>
+                <li> <a href="#"> Advertisers </a> </li>
+                <li> <a href="#"> Website & Email </a> </li>
+                </ul>
+            </div>
+
+            <div class="t-footer">
+                <ul>
+                <li> <a href="#"> <b> Social Media </b> </a> <hr> </li>
+                <li> <a href="#"> Reddit </a> </li>
+                <li> <a href="#"> Twitter </a> </li>
+                <li> <a href="#"> Facebook </a> </li>
+                <li> <a href="#"> YouTube </a> </li>
+                </ul>
+            </div>
+
+
+            <div class="lst-footer">
+            <ul>
+                <li> <b class="contacts"> CONTACTS </b> <hr>
+                <p style="font-size: 15px;">
+                    Brave San, 512 Francisco, CA 94107 <br>
+                    Polevaya Sabirovskaya street, 54A, office 335
+                </p>
+                <p class="language-select-para"> Choose a language <br>
+                    <select class="language-select" name="">
+                    <option value="English"> English </option>
+                    <option value="Russian"> Russian </option>
+                    </select>
+                </p>
+                </li>
+            </ul>
+
+            </div>
+        </div>
+
+        <!-- Adding the second footer -->
+        <div class="second_footer" id="second_footer">
+            <div class="second_footer_inner_div">
+
+            <div class="s-footer-inner-div">
+                <p class="s-footer-inner-div"> Terms Of User | Report a Security Issue </p>
+            </div>
+            </div>
+        </div>
+  
+
+    
+    
+    <!-- Adding javascript-->
+    <script src="{{url_for('static', filename='Home/javascript/home.js')}}"></script>
+</body>
+</html>

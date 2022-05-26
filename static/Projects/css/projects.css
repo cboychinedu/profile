@@ -1,0 +1,411 @@
+* {
+     
+    font-family: 'EB Garamond', serif;
+}
+
+.projects-div {
+    /* border: 2px solid green; */
+    width: 72%;
+    height: 688px;
+    margin: auto;
+    padding-top: 50px;
+    border: none; 
+    padding-bottom: 50px;
+    
+}
+#right-nav {
+    height: 4px;
+    width: 3%;
+    position: fixed;
+    margin-left: 4px;
+    border-radius: 5px;
+    margin-top: 26px; 
+    background-color: rgb(210 168 86);
+
+}
+#right-nav-sticky {
+    margin-top: 24px;
+}
+
+body::-webkit-scrollbar-track {
+    border: 1px solid #000;
+    padding: 2px 0;
+    background-color: #404040;
+  }
+  
+  body::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #737272;
+    border: 1px solid #000;
+  }
+
+
+
+.projects-para {
+    text-align: center;
+    font-size: 23px; 
+    padding-top: 65px;
+    font-family: 'PT Sans', sans-serif;
+}
+.projects-div li {
+    height: 323px;
+    width: 600px;
+    text-align: center;
+    border: 2px solid #322b2b;
+    margin: 10px;
+    border-radius: 10px;   
+}
+.projects-div li:hover, 
+.projects-div li:focus {
+    box-shadow: -2px 1px 17px -2px;
+}
+.first-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    list-style: none;
+    padding-left: 138px;
+    padding-right: 138px;
+}
+.second-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    list-style: none;
+    padding-left: 138px;
+    padding-right: 138px;
+}
+.steam-table-list {
+    border: 2px solid green; 
+}
+.steam-tables-project {
+    border: 2px solid green; 
+    height: 257px;
+}
+.steam-tables-image, 
+.temp-converter-image, 
+.cpu-usage-image {
+    height: 259px;
+    width: 100%; 
+}
+/* Navigator */ 
+.navigator-div {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 68%;
+    margin-bottom: 200px;
+    justify-items: stretch;
+    align-content: space-around;
+}
+.previous, .next {
+    height: 45px;
+    width: 150px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    border: 1px solid #908383;
+}
+
+
+
+
+
+
+
+
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) { 
+    .first-list {
+        display: grid;
+    }
+    .second-list {
+        display: grid;
+    }
+    .projects-div li {
+        height: 335px;
+        width: 231px;
+    }
+    .projects-div {
+        width: 99%; 
+        height: 788px;
+    }
+    .projects-para {
+        padding-bottom: 87px; 
+    }
+
+    .first-section {
+        line-height: 2;
+        height: 775px;
+        margin-top: 152px;
+        margin-bottom: 100px;
+    }
+    .main-nav {
+        height: 48px; 
+        width: 105%;
+        padding-top: 11px; 
+        padding-left: 7px; 
+    }
+    .right-nav {
+        display: none;
+    }
+    a {
+        margin-left: 1px; 
+    }
+    b {
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    p {
+        font-size: 16px; 
+    }
+    .left-nav {
+        padding-top: 9px; 
+    }
+    .initial-div {
+        padding-top: 76px; 
+        padding-bottom: 102px; 
+    }
+    .contact-me {
+        margin-bottom: 15px;
+    }
+    .home, .about, .contact,
+    .email, .projects, .internship {
+        padding-top: 11px;
+        padding-bottom: 8px;
+        padding-left: 11px;
+        font-size: 18px;
+        margin-right: -26px;
+    }
+    .home:hover, .home:focus, 
+    .about:hover, .about:focus, 
+    .contact:hover, .contact:focus, 
+    .email:hover, .email:focus, 
+    .projects:hover, .projects:focus, 
+    .internship:hover, .internship:focus {
+        text-decoration: underline;
+        background-color: white;
+        text-decoration: underline;
+        color: black;
+        font-weight: bold;
+        padding-top: 17px;
+        padding-bottom: 15px;
+        padding-left: 11px;
+        padding-right: 11px;
+        margin-left: -6px;
+        margin-right: -7px;
+        border-radius: 5px;
+        border-bottom: 2px solid #6e5520;
+}
+    .build-para {
+        font-size: 2rem; 
+    }
+    .image-file {
+        margin-top: 42px; 
+        height: 282px;
+        box-shadow: -1px 1px 18px -2px;
+        width: 271px;
+    }
+    .i-section {
+        margin-top: -208px; 
+    }
+    .image-div {
+        height: 304px;
+        margin-bottom: 118px; 
+        float: left;
+        margin-right: 5px;
+        margin-left: -30px;
+        border-radius: 10px;
+        padding-left: 52px;
+        padding-right: 44px;
+        background-color: black;
+        padding-top: 0px;
+    }
+    .second-section {
+        margin-top: 639px; 
+    }
+    .ii-section {
+        width: 95%;
+        height: 1251px;
+        padding-right: 15px;
+        /* border: 2px solid green;  */
+    }
+    .img-div-2 {
+        float: none; 
+        padding-right: 0px;
+        margin-right: 0px;
+        padding-left: 21px;
+        margin-left: 1px; 
+        margin-bottom: 0px; 
+        height: 418px; 
+    }
+    .process {
+        margin-top: 62px;
+        height: 339px;
+        box-shadow: none; 
+        width: 326px;
+        float: left;
+        border-radius: 13px;
+    }
+    ul li {
+        font-size: 16px; 
+    }
+    .text-div-2 {
+        padding-left: 0px; 
+    }
+    .heading-para {
+        font-size: 34px;
+        line-height: 33px; 
+        margin-left: 3px; 
+    }
+    .heading-para-2 {
+        font-size: 33px; 
+        margin-bottom: -55px;
+        margin-left: 26px; 
+    }
+    ul li b {
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    .img-div-3 {
+        padding-left: 52px; 
+        padding-right: 0px;
+        margin-top: -600px; 
+        height: 635px;
+        margin-bottom: -63px; 
+        margin-left: -39px; 
+        margin-right: -16px;
+    }
+    .software-eng {
+        margin-top: 766px;
+        width: 95%; 
+    }
+    .software-div {
+        margin-left: -30px; 
+    }
+    .software-image {
+        margin-top: -189px;
+        height: 618px;
+        box-shadow: none;
+        width: 419px;
+        float: right;
+        border-radius: 5px;
+    }
+    .heading-para-eng {
+        margin-top: 39px;
+        font-size: 45px;
+        line-height: 44px;
+    }
+    .third-section {
+        margin-top: 915px; 
+        padding-left: 0px; 
+        width: 99%;
+    }
+    .heading-para-3 {
+        padding-top: 9px; 
+        font-size: 34px; 
+        padding-left: 33px; 
+    }
+    .pdf-div-1 {
+        display: grid;
+        width: 30%;
+    }
+    .download-pdf-btn {
+        width: 94%;
+    }
+    .spe-btn {
+        width: 102%;
+        margin-right: 43px;
+        margin-left: -9px; 
+    }
+    .google, .facebook
+    {
+        width: 85%;
+        height: 204px;
+        border: 1px solid #2f2f2f
+        
+
+    }
+    .spe {
+        height: 151px;
+        width: 93%; 
+    }
+    .google-div {
+        width: 94%; 
+        padding-left: 7px; 
+    }
+    .facebook-div {
+        width: 92%; 
+        padding-left: 7px; 
+    }
+    .spe-div {
+        margin-left: 17px;
+        padding-left: 7px; 
+        width: 183px;
+        height: 213px;
+        margin-top: 59px; 
+        text-align: center;  
+        border: 1px solid #2f2f2f 
+    }
+    .footer {
+        display: grid; 
+        align-items: center;
+        align-content: center;
+        justify-items: self-end;
+        padding-bottom: 0px; 
+    }
+    .footer ul {
+        margin-left: -26px; 
+        width: 250px;
+        font-size: 12px;
+    }
+    .footer ul li a {
+        font-size: 15px; 
+    }
+    .footer ul li a b, 
+    .contacts {
+        padding: 10px 10px 10px 10px; 
+        background-color: black;
+        margin-left: -30px; 
+    }
+    .contacts {
+        padding: 10px 10px 10px 10px; 
+        background-color: black;
+        margin-left: -13px; 
+    }
+    .lst-footer li {
+        margin-left: -84px;
+        padding-right: 93px;
+    }
+    .third-section {
+        margin-bottom: 986px;
+    }
+    .s-footer-para a {
+        font-size: 12px; 
+    }
+    .second_footer {
+        height: 34px;
+        padding-top: 20px;
+        margin-top: -27px;
+        margin-bottom: 13px;
+    }
+    .lst-footer {
+        margin-top: -61px; 
+    }
+
+}
+
+

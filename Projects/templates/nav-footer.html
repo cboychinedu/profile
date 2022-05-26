@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='Home/css/home.css')}}" >
+    <title>Home</title>
+</head>
+<body>
+    
+    <!-- Adding the navigator -->
+    <nav class="main-nav" id="main-nav">
+        <nav class="left-nav" id="left-nav">
+            <a href="/" class="home"> Home </a>
+            <a href="/about" class="about"> About </a>
+            <a href="/contact" class="contact"> Contact </a>
+            <a href="/projects" class="projects"> Projects </a>
+            <a href="" class="internship"> Internship </a>
+        </nav>
+        <nav class="right-nav" id="right-nav">
+
+        </nav>
+    </nav> 
+    {% block contents %}
+
+   
+    {% endblock %}
+
+            <!-- Adding the footer section -->
+        <div class="footer" id="footer">
+            <div class="f-footer">
+            <ul>
+                <li> <a href="#"> <b> Resources </b> </a> <hr> </li>
+                <li> <a href="#"> FAQ </a> </li>
+                <li> <a href="#"> Store </a> </li>
+                <li> <a href="#"> Help Center </a> </li>
+                <li> <a href="#"> Community </a> </li>
+                <li> <a href="#"> Branding </a> </li>
+                <li> <a href="#"> Media Assets </a> </li>
+            </ul>
+            </div>
+
+            <div class="s-footer">
+                <ul>
+                <li> <a href="#"> <b> Terms Of Service </b> </a> <hr> </li>
+                <li> <a href="#"> Product </a> </li>
+                <li> <a href="#"> Status </a> </li>
+                <li> <a href="#"> Privacy Policy </a> </li>
+                <li> <a href="#"> Advertisers </a> </li>
+                <li> <a href="#"> Website & Email </a> </li>
+                </ul>
+            </div>
+
+            <div class="t-footer">
+                <ul>
+                <li> <a href="#"> <b> Social Media </b> </a> <hr> </li>
+                <li> <a href="#"> Reddit </a> </li>
+                <li> <a href="#"> Twitter </a> </li>
+                <li> <a href="#"> Facebook </a> </li>
+                <li> <a href="#"> YouTube </a> </li>
+                </ul>
+            </div>
+
+
+            <div class="lst-footer">
+            <ul>
+                <li> <b> CONTACTS </b> <hr>
+                <p style="font-size: 15px;">
+                    Brave San, 512 Francisco, CA 94107 <br>
+                    Polevaya Sabirovskaya street, 54A, office 335
+                </p>
+                <p class="language-select-para"> Choose a language <br>
+                    <select class="language-select" name="">
+                    <option value="English"> English </option>
+                    <option value="Russian"> Russian </option>
+                    </select>
+                </p>
+                </li>
+            </ul>
+
+            </div>
+        </div>
+
+        <!-- Adding the second footer -->
+        <div class="second_footer" id="second_footer">
+            <div class="second_footer_inner_div">
+            <div class="f-footer-inner-div">
+                <p class="s-footer-para"><b> <a href="" style="padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"> Mbonu Chinedum Information© Copyright 2022 <br> </p>
+            </div>
+
+            <div class="s-footer-inner-div">
+                <p class="s-footer-inner-div"> Terms Of User | Report a Security Issue </p>
+            </div>
+            </div>
+        </div>
+  
+
+    
+    
+    <!-- Adding javascript-->
+    <script src="{{url_for('static', filename='Home/javascript/home.js')}}"></script>
+</body>
+</html>
