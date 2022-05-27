@@ -1,6 +1,8 @@
+@import "home.css"; 
+
 * {
      
-    font-family: 'EB Garamond', serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .projects-div {
@@ -13,18 +15,31 @@
     padding-bottom: 50px;
     
 }
-#right-nav {
-    height: 4px;
-    width: 3%;
-    position: fixed;
-    margin-left: 4px;
+.home:hover, .home:focus, 
+.about:hover, .about:focus, 
+.contact:hover, .contact:focus, 
+.email:hover, .email:focus, 
+.projects:hover, .projects:focus, 
+.internship:hover, .internship:focus {
+    text-decoration: underline;
+    background-color: #faf8f8;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    padding-top: 22px;
+    padding-bottom: 28px;
+    padding-left: 25px;
+    border-bottom: 6px solid #ffc107;
+    padding-right: 25px;
     border-radius: 5px;
-    margin-top: 26px; 
-    background-color: rgb(210 168 86);
-
 }
-#right-nav-sticky {
-    margin-top: 24px;
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+a {
+    font-family: 'PT Sans', sans-serif;
 }
 
 body::-webkit-scrollbar-track {
@@ -80,6 +95,9 @@ body::-webkit-scrollbar-track {
     padding-left: 138px;
     padding-right: 138px;
 }
+.footer {
+    padding-top: 400px; 
+}
 .steam-table-list {
     border: 2px solid green; 
 }
@@ -89,7 +107,8 @@ body::-webkit-scrollbar-track {
 }
 .steam-tables-image, 
 .temp-converter-image, 
-.cpu-usage-image {
+.cpu-usage-image, 
+.cars-image {
     height: 259px;
     width: 100%; 
 }
@@ -113,7 +132,9 @@ body::-webkit-scrollbar-track {
     background-color: black;
     border: 1px solid #908383;
 }
-
+.right-nav {
+    display: none;
+}
 
 
 

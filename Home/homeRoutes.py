@@ -1,8 +1,15 @@
 #!/usr/bin/env python3 
 
 # Importing the necessary modules 
+import os
 from flask import Blueprint 
+from flask import send_file
 from flask import render_template, redirect, url_for 
+
+# Getting the path to the images 
+os.getcwd() 
+
+# Document path 
 
 # Creating the blueprint home route 
 home = Blueprint('home', __name__, template_folder="templates", 
@@ -27,3 +34,21 @@ def AboutPage():
 def ContactPage():
     # Setting the contact page route 
     return render_template("contact.html")
+
+# Creating a route for downloading the certification 
+@home.route("/download/<name>", methods=["GET"])
+def Download(name): 
+    # Setting condition for the parsed url value 
+    if name == "google": 
+        # Send the user the google certifications 
+        return send_file("static/Home/pdf/google.pdf", attachment_filename="google.pdf")
+
+    # Setting the condition for facebook 
+    elif name == "facebook": 
+        # Send the user the facebook certifications 
+        return send_file("static/Home/pdf/facebook.pdf", attachment_filename="facebook.pdf")
+
+    # Settubg the condition for the spe download button 
+    elif name == "spe": 
+        # Send the user the spe certifications 
+        return send_file("static/Home/pdf/spe_cert.pdf", attachment_filename="spe_cert.pdf")

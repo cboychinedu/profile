@@ -1,55 +1,39 @@
-// Getting the dom values for each download buttons 
-let google_btn = document.getElementById("google-btn"); 
-let facebook_btn = document.getElementById("facebook-btn"); 
-let spe_btn = document.getElementById("spe-btn"); 
+//
+console.log('Working!'); 
 
-// Adding event listeners for the google button 
-google_btn.addEventListener("click", (event) => {
-    // Execute this block of code if the google button was clicked 
-    location.href = "/download/google";
-}); 
 
-// Adding the event listeners for the facebook button 
-facebook_btn.addEventListener("click", (event) => {
-    // Execute this block of code if the facebook button was clicked 
-    location.href = "/download/facebook"; 
-}); 
 
-// Adding the event listeners for the spe button 
-spe_btn.addEventListener("click", (event) => {
-    // Execute this block of code if the spe button was clicked 
-    location.href = "/download/spe"; 
-}); 
+
 
 
 // When the user scrools the page, execute myFunction
 window.onscroll = function() {staticScroll()};
 
 // Get the header id
-let header = document.getElementById("main-nav");
+let header2 = document.getElementById("main-nav");
 
 // Get the offset position of the navbar
-let sticky = header.offsetTop;
-let nav = document.getElementById("right-nav")
+let sticky2 = header2.offsetTop;
+let nav2 = document.getElementById("right-nav")
 
 // Add the sticky class to the header when you reach its scrool position. Remove
 // "sticky" when you leave the scroll position
 function staticScroll()
 {
     // Code execution
-    if ( window.pageYOffset > sticky )
+    if ( window.pageYOffset > sticky2 )
     {
         // if the condition is met, execute the code below
-        header.classList.add("sticky");
-        nav.classList.add('right-nav-sticky')
+        header2.classList.add("sticky");
+        nav2.classList.add('right-nav-sticky')
     }
 
     // Else condition
     else
     {
         // code execution
-        header.classList.remove("sticky");
-        nav.classList.remove('right-nav-sticky')
+        header2.classList.remove("sticky");
+        nav2.classList.remove('right-nav-sticky')
     }
 
     
@@ -74,7 +58,7 @@ document.addEventListener("mouseout", (event) =>{
     else if ( event.y <= 890 || event.y == 890 ) { nav.style.width = "90%"; }
     else if ( event.y <= 950 || event.y == 950 ) { nav.style.width = "95%"; }
     else if ( event.y <= 1020 || event.y == 1020 ) { nav.style.width = "100%"; }
-  
+
     // x: 1133
     // y: 1020
 })
@@ -82,7 +66,6 @@ document.addEventListener("mouseout", (event) =>{
 // 
 document.addEventListener("mousemove", (event) =>{
     // 
-    console.log(event.y); 
     if (event.y <= 200 || event.y == 200 ) { nav.style.width = "0%"; }
     else if (event.y <= 250 || event.y == 250 ) { nav.style.width = "15%"}
     else if (event.y <= 300 || event.y == 300 ) { nav.style.width = "17%"}
@@ -103,7 +86,51 @@ document.addEventListener("mousemove", (event) =>{
     else if ( event.y <= 1020 || event.y == 1020 ) { nav.style.width = "100%"; }
     
     
-   
+
     // x: 1133
     // y: 1020
 })
+
+// Getting the dom element for the projects 
+let steamTables = document.getElementById("steam-table-list"); 
+let tempConverter = document.getElementById("temp-converter-list"); 
+let cpuUsage = document.getElementById("cpu-usage-list"); 
+let green_exchange = document.getElementById("green-exchange-list");
+let fasgdiii = document.getElementById("fasgd-iii");  
+let carWebsite = document.getElementById("cars-website"); 
+
+// Adding event listener for the tempConverter list 
+tempConverter.addEventListener("click", (event) => {
+    // 
+    console.log("Clicked"); 
+}); 
+
+// Adding event listener for the cpu usage 
+cpuUsage.addEventListener("click", (event) => {
+    // Redirecting the user to the project link 
+    document.location.href = "https://gitlab.com/cboychinedu/cpu-utilization"; 
+}); 
+
+// Adding event listener for the steam table list 
+steamTables.addEventListener("click", (event) => {
+    // Redirecting the user to the steam table project 
+    document.location.href = "https://gitlab.com/cboychinedu/steam-tables-analysis/-/tree/master"; 
+}); 
+
+// Adding event listener for green exchange 
+green_exchange.addEventListener("click", (event) => {
+    // Redirecting the user to green exchange 
+    document.location.href = "https://gitlab.com/cboychinedu/green-exchange"; 
+}); 
+
+// Adding the event listener for fasgd-111 
+fasgdiii.addEventListener("click", (event) => {
+    // Redirecting the user to fasgd 
+    document.location.href = "https://gitlab.com/cboychinedu/fasgd-iii"; 
+}); 
+
+// Adding the event listener for the carwebsite 
+carWebsite.addEventListener("click", (event) => {
+    // Redirecting the user to the project link 
+    document.location.href = "https://github.com/cboychinedu/A-simple-car-website"; 
+}); 

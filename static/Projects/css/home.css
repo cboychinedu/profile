@@ -7,14 +7,10 @@
 } */
 * {
      
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Yrsa', serif;
     font-size: 18px; 
     
 
-}
-
-body {
-    font-family: 'PT Sans', sans-serif;
 }
 .right-nav {
     height: 4px;
@@ -22,10 +18,11 @@ body {
     position: fixed;
     margin-left: 4px;
     border-radius: 5px;
-    background-color: rgb(210 168 86); 
+    margin-top: 0px;
+    background-color: rgb(101 90 68);
 }
 .right-nav-sticky {
-    margin-top: 74px;
+    margin-top: 51px;
 
 }
 .main-nav {
@@ -79,7 +76,6 @@ body {
 a {
     text-decoration: none;
     margin-left: 20px; 
-    font-family: 'PT Sans', sans-serif;
 }
 div {
     maring-top: 225px; 

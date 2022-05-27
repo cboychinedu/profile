@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Yrsa:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{url_for('static', filename='Home/css/home.css')}}" >
@@ -24,10 +24,6 @@
         </nav>
         
     </nav> 
-
-    <nav class="right-nav" id="right-nav">
-
-    </nav>
     {% block contents %}
 
     <!-- The contents inside the block is ommited... -->
@@ -118,7 +114,7 @@
 
                         <li> 
                             <b> Product Management: </b> Good with supply, storage and utilization, reduction of waste
-                            analysis, recycling of waste process, prevent maintenance, plant utilities electricity and
+                            analysis, recycling of waste process, prevent maintenance, plant utilities electricity and <br> 
                             water supply, Control of atmospheric conditions.
                         </li>
 
@@ -200,18 +196,18 @@
             <div class="google-div">
                 <p class="google-para"> <b> Google Certification </b></p>
                 <embed src="{{url_for('static', filename='Home/pdf/google.pdf')}}" class="google" /> <br> 
-                <input type="button" class="download-pdf-btn" value="Download Certification">
+                <input type="button" class="download-pdf-btn" id="google-btn" value="Download Certification">
 
             </div>
             <div class="facebook-div">
                 <p class="facebook-para"> <b> Facebook Certification </b> </p>
                 <embed src="{{url_for('static', filename='Home/pdf/facebook.pdf')}}" class="facebook" /> <br>
-                <input type="button" class="download-pdf-btn" value="Download Certification">
+                <input type="button" class="download-pdf-btn" id="facebook-btn" value="Download Certification">
             </div>
             <div class="spe-div">
                 <p class="spe-para"> <b> SPE Certification </b> </p>
                 <embed src="{{url_for('static', filename='Home/pdf/spe_cert.pdf')}}" class="spe" height="582px"/> <br>
-                <input type="button" class="download-pdf-btn spe-btn" value="Download Certification"> 
+                <input type="button" class="download-pdf-btn spe-btn" id="spe-btn" value="Download Certification"> 
 
             </div>
             
@@ -264,8 +260,8 @@
             <ul>
                 <li> <b class="contacts"> CONTACTS </b> <hr>
                 <p style="font-size: 15px;">
-                    Brave San, 512 Francisco, CA 94107 <br>
-                    Polevaya Sabirovskaya street, 54A, office 335
+                    Lagos, Nigeria. <br>
+                    
                 </p>
                 <p class="language-select-para"> Choose a language <br>
                     <select class="language-select" name="">
