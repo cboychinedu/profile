@@ -1798,3 +1798,36 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/mbonu/Documents/M
 05/27/2022 08:20:15 AM 127.0.0.1 - - [27/May/2022 08:20:15] "GET / HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
 05/27/2022 08:21:08 AM 127.0.0.1 - - [27/May/2022 08:21:08] "GET / HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
 05/27/2022 08:21:17 AM 127.0.0.1 - - [27/May/2022 08:21:17] "GET /projects/ HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:30:21 AM  * Running on http://localhost:5001/ (Press CTRL+C to quit) _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:30:21 AM  * Restarting with stat _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:30:21 AM  * Debugger is active! _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:30:21 AM  * Debugger PIN: 137-070-499 _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:30:28 AM 127.0.0.1 - - [27/May/2022 08:30:28] "GET /projects/ HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:30:29 AM 127.0.0.1 - - [27/May/2022 08:30:29] "GET / HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:30:29 AM 127.0.0.1 - - [27/May/2022 08:30:29] "GET /static/Home/css/home.css?q=1653636600 HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:33:32 AM 127.0.0.1 - - [27/May/2022 08:33:32] "GET / HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:33:32 AM 127.0.0.1 - - [27/May/2022 08:33:32] "GET /static/Home/css/home.css?q=1653636802 HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:34:58 AM 127.0.0.1 - - [27/May/2022 08:34:58] "GET / HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:34:59 AM 127.0.0.1 - - [27/May/2022 08:34:59] "GET /static/Home/css/home.css?q=1653636896 HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:35:17 AM 127.0.0.1 - - [27/May/2022 08:35:17] "GET / HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:35:17 AM 127.0.0.1 - - [27/May/2022 08:35:17] "GET /static/Home/css/home.css?q=1653636915 HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:35:22 AM 127.0.0.1 - - [27/May/2022 08:35:22] "GET /projects/ HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:35:26 AM 127.0.0.1 - - [27/May/2022 08:35:26] "GET / HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:37:25 AM 127.0.0.1 - - [27/May/2022 08:37:25] "GET / HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:37:25 AM 127.0.0.1 - - [27/May/2022 08:37:25] "GET /static/Home/css/home.css?q=1653637043 HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:37:32 AM 127.0.0.1 - - [27/May/2022 08:37:32] "GET / HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:37:58 AM 127.0.0.1 - - [27/May/2022 08:37:58] "GET / HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:37:58 AM 127.0.0.1 - - [27/May/2022 08:37:58] "GET /static/Home/css/home.css?q=1653637076 HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:38:19 AM 127.0.0.1 - - [27/May/2022 08:38:19] "GET /projects/ HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:39:13 AM 127.0.0.1 - - [27/May/2022 08:39:13] "GET /projects/ HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:39:16 AM 127.0.0.1 - - [27/May/2022 08:39:16] "GET /projects/ HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:40:25 AM 127.0.0.1 - - [27/May/2022 08:40:25] "GET /projects/ HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:41:23 AM 127.0.0.1 - - [27/May/2022 08:41:23] "GET /projects/ HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:41:24 AM 127.0.0.1 - - [27/May/2022 08:41:24] "GET /static/Projects/css/projects.css?q=1653637281 HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:41:33 AM 127.0.0.1 - - [27/May/2022 08:41:33] "GET /projects/ HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:42:23 AM 127.0.0.1 - - [27/May/2022 08:42:23] "GET /projects/ HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:42:53 AM 127.0.0.1 - - [27/May/2022 08:42:53] "GET /projects/ HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:42:53 AM 127.0.0.1 - - [27/May/2022 08:42:53] "GET /static/Projects/css/projects.css?q=1653637370 HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:42:54 AM 127.0.0.1 - - [27/May/2022 08:42:54] "GET /projects/ HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:43:01 AM 127.0.0.1 - - [27/May/2022 08:43:01] "GET / HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/27/2022 08:43:19 AM 127.0.0.1 - - [27/May/2022 08:43:19] "GET /projects/ HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py

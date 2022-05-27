@@ -52,20 +52,7 @@ body::-webkit-scrollbar-thumb {
     border: 3px solid #000;
 }
 
-b {
-    font-size: 19px; 
-    line-height: 2;
-    font-size: 19px;
-    line-height: 2;
-    background-color: #242b2f;
-    border-radius: 5px;
-    font-weight: bold;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    margin-right: 9px;
-}
+
 body {
     background-color: black;
     color: white; 
@@ -244,20 +231,6 @@ p {
     margin-bottom: 49px;
 }
 
-ul li b {
-    font-size: 19px; 
-    line-height: 2;
-    font-size: 19px;
-    line-height: 2;
-    background-color: #242b2f;
-    border-radius: 5px;
-    font-weight: bold;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    margin-right: 9px;
-}
 .sticky {
     position: fixed;
     top: 0;
@@ -554,7 +527,7 @@ ul li b {
         margin-right: -7px;
         border-radius: 5px;
         border-bottom: 2px solid #6e5520;
-}
+    }
     .build-para {
         font-size: 2rem; 
     }

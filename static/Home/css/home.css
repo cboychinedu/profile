@@ -60,7 +60,6 @@ b {
     line-height: 2;
     font-size: 19px;
     line-height: 2;
-    background-color: #242b2f;
     border-radius: 5px;
     font-weight: bold;
     padding-left: 12px;
@@ -213,6 +212,9 @@ p {
 .para-2 {
     margin-top: 100px; 
 }
+.list-2 {
+    padding-right: 446px;
+}
 
 .img-div-2 {
     float: right;
@@ -253,7 +255,6 @@ ul li b {
     line-height: 2;
     font-size: 19px;
     line-height: 2;
-    background-color: #242b2f;
     border-radius: 5px;
     font-weight: bold;
     padding-left: 12px;
@@ -453,7 +454,7 @@ ul li b {
     width: 63%;
     margin: auto;
     padding-left: 30px;
-    margin-top: 230px;
+    margin-top: 770px;
 }
 .software-image {
     margin-top: -100px;
