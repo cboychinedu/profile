@@ -12,6 +12,9 @@
     
 
 }
+.desc-para {
+    font-size: 22px; 
+}
 
 body {
     font-family: 'PT Sans', sans-serif;
@@ -32,7 +35,36 @@ body {
     background-image: url("../images/stars3.jpg"); 
     animation: animination 75s linear infinite;
 }
-
+.cell-blocks {
+    display: flex; 
+    justify-content: center;
+    margin-top: -127px; 
+}
+.block {
+    height: 328px;
+    width: 265px;
+    margin-left: 20px;
+    border: 20px solid #201e1e;
+    border-radius: 65px;
+    margin-right: 20px;
+}
+.block-1 {
+    background-color: #9a3d1ff7;
+    color: white; 
+}
+.block-2 {
+    background-color: #337233; 
+    color: white; 
+}
+.block-3 {
+    background-color: #b7883c; 
+    color: white; 
+}
+.block-text {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 108px;
+}
 
 @keyframes animination {
     0%{background-position: 0 0;}
@@ -55,19 +87,6 @@ body::-webkit-scrollbar-thumb {
     border: 3px solid #000;
 }
 
-b {
-    font-size: 19px; 
-    line-height: 2;
-    font-size: 19px;
-    line-height: 2;
-    border-radius: 5px;
-    font-weight: bold;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    margin-right: 9px;
-}
 body {
     background-color: black;
     color: white; 
@@ -111,9 +130,9 @@ ul li {
 .projects:hover, .projects:focus, 
 .internship:hover, .internship:focus {
     text-decoration: underline;
-    background-color: #faf8f8;
+    background-color: #201e1e;
     text-decoration: none;
-    color: black;
+    color: #f9f8f8;
     font-weight: bold;
     font-size: 22px;
     padding-top: 22px;
@@ -140,7 +159,7 @@ ul li {
 .second-section {
     background-color: black;
     margin: auto;
-    width: 83%;
+    width: 87%;
     line-height: 2;
     color: white;
     margin-top: 145px;
@@ -155,24 +174,26 @@ ul li {
     margin-bottom: 4px;
     padding-left: 52px;
     padding-right: 62px;
-    background-color: black;
-    padding-top: 0px;
+    background-color: #201e1e;
+    margin-top: 45px;
 }
 .text-div {
-    padding-right: 10px;
+    padding-right: 36px;
+    padding-left: 36px;
     height: 775px;
+    padding-top: 0px;
 }
 .image-file {
     margin-top: 62px; 
     height: 383px;
-    box-shadow: 1px 5px 10px 4px;
     width: 400px;
+    border: 20px solid #29251e;
     float: left;
     border-radius: 241px;
 }
 .heading-para {
-    font-size: 45px; 
-    margin-top: 295px;
+    font-size: 45px;
+    margin-top: 61px;
 }
 .heading-para-eng {
     margin-top: 45px;  
@@ -185,7 +206,7 @@ p {
 .process {
     margin-top: 62px;
     height: 461px;
-    box-shadow: 1px 5px 10px 4px;
+    border: 20px solid #29251e;
     width: 423px;
     float: right;
     border-radius: 241px;
@@ -231,10 +252,19 @@ p {
 }
 
 .i-section {
-    margin-top: 211px; 
-    height: 775px;
+    margin-top: 211px;
+    height: 812px;
     margin: auto;
-    width: 70%;
+    border: 11px solid #8b701f14; 
+    background-color: #201e1e;
+    width: 76%;
+    border-radius: 65px;
+    padding-top: 20px;
+    
+}
+.i-section:hover {
+    border-radius: 65px;
+    box-shadow: 0px 2px 43px -19px;
 }
     /* border: 2px solid green;  */
 
@@ -243,11 +273,31 @@ p {
     margin: auto;
     width: 83%;
     line-height: 2;
-    height: 419px;
+    background-color: #201e1e;
+    height: 187px;
     padding-bottom: 611px;
-    padding-right: 45px;
-    margin-top: 145px;
+    margin-right: -46px;
+    border-radius: 65px;
+    margin-top: 370px;
+    padding-top: 37px;
     margin-bottom: 49px;
+    border: 11px solid #8b701f14; 
+}
+.ii-section:hover {
+    box-shadow: 0px 2px 43px -19px;
+}
+.chem-eng-div {
+    border: 10px solid #29251e;
+    background-color: #201e1e;
+    border-radius: 64px;
+    height: 506px;
+    margin-top: 162px; 
+    padding-left: 40px;
+    padding-top: 43px;
+    padding-right: 40px;
+}
+.chem-eng-div:hover {
+    box-shadow: 2px 43px -19px; 
 }
 
 ul li b {
@@ -324,8 +374,8 @@ ul li b {
     margin: 0 auto;
     width: 76%;
     padding: 0px;
-    margin-bottom: 981px;
-    margin-top: 553px;
+    margin-bottom: 455px;
+    margin-top: 335px;
     padding-left: 30px;
 }
 .pdf-div-1 {
@@ -449,41 +499,55 @@ ul li b {
 }
 
 .software-eng {
-    height: 400px;
+    height: 958px;
     margin: 0 auto;
-    width: 63%;
+    width: 74%;
     margin: auto;
-    padding-left: 30px;
-    margin-top: 770px;
+    margin-right: 301px;
+    margin-top: 195px;
 }
 .software-image {
-    margin-top: -100px;
-    height: 522px;
+    margin-top: -94px;
+    height: 538px;
     box-shadow: 1px 5px -8px 4px;
-    width: 408px;
+    width: 486px;
     float: left;
-    border-radius: 241px;
+    border: 6px solid #28231c;
+    border-radius: 25px;
+}
+.heading-para-2 {
+    margin-top: -112px;
+    margin-bottom: 177px;
+}
+.div-2 {
+    padding-right: 349px;
 }
 .img-div-3 {
     float: right;
     margin-right: 0px;
     margin-left: 38px;
-    height: 632px;
+    height: 639px;
     border-radius: 10px;
     margin-bottom: 100px;
     padding-left: 52px;
     padding-right: 62px;
     /* background-color: #2b2727; */
     padding-top: 0px;
-    margin-top: -13px;
+    margin-top: 145px;
 }
 .software-div {
     line-height: 45px;
-    margin-left: -41px; 
-    width: 100%; 
-    line-height: 37px;
+    margin-left: -6px;
+    padding-top: 39px;
+    width: 100%;
+    border: 13px solid #29251e;
     font-weight: 500;
     padding-bottom: 114px;
+    background-color: #201e1e;
+    margin-bottom: 105px;
+    padding-top: 109px;
+    padding-left: 50px; 
+    border-radius: 65px;
 }
 
 
@@ -566,6 +630,7 @@ ul li b {
     .image-file {
         margin-top: 42px; 
         height: 282px;
+        border: 20px solid #29251e;
         box-shadow: -1px 1px 18px -2px;
         width: 271px;
     }
