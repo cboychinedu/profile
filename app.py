@@ -62,7 +62,7 @@ def dated_url_for(endpoint, **values):
 # Running the flask application 
 # host = "192.168.196.200"
 if __name__ == "__main__":
-    app.run(port=5001, 
-            host="localhost",
-            debug=True)
-    # app.run() 
+    # app.run(port=5001, 
+    #         host="localhost",
+    #         debug=True)
+    app.run() 

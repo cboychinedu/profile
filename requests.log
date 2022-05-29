@@ -2153,3 +2153,14 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/mbonu/Documents/M
 05/29/2022 06:40:29 AM 127.0.0.1 - - [29/May/2022 06:40:29] "GET / HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
 05/29/2022 06:40:39 AM 127.0.0.1 - - [29/May/2022 06:40:39] "GET /download/spe HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
 05/29/2022 06:40:54 AM 127.0.0.1 - - [29/May/2022 06:40:54] "GET /projects/ HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/29/2022 06:41:57 AM  * Running on http://localhost:5001/ (Press CTRL+C to quit) _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/29/2022 06:41:57 AM  * Restarting with stat _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/29/2022 06:41:57 AM  * Debugger is active! _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/29/2022 06:41:57 AM  * Debugger PIN: 124-066-749 _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/29/2022 06:44:04 AM 127.0.0.1 - - [29/May/2022 06:44:04] "GET /projects/ HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/29/2022 06:44:05 AM 127.0.0.1 - - [29/May/2022 06:44:05] "GET /static/Projects/css/projects.css?q=1653803040 HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/29/2022 06:45:18 AM 127.0.0.1 - - [29/May/2022 06:45:18] "GET /projects/ HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/29/2022 06:45:19 AM 127.0.0.1 - - [29/May/2022 06:45:19] "GET /static/Projects/css/projects.css?q=1653803115 HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/29/2022 06:45:43 AM 127.0.0.1 - - [29/May/2022 06:45:43] "GET /projects/ HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/29/2022 06:45:43 AM 127.0.0.1 - - [29/May/2022 06:45:43] "GET /static/Projects/css/projects.css?q=1653803141 HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
+05/29/2022 06:46:03 AM 127.0.0.1 - - [29/May/2022 06:46:03] "GET / HTTP/1.1" 200 - _internal.py _internal /home/mbonu/anaconda3/envs/ml/lib/python3.8/site-packages/werkzeug/_internal.py
