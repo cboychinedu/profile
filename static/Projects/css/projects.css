@@ -22,9 +22,9 @@
 .projects:hover, .projects:focus, 
 .internship:hover, .internship:focus {
     text-decoration: underline;
-    background-color: #faf8f8;
+    background-color: #201e1e;
     text-decoration: none;
-    color: black;
+    color: #f9f8f8;
     font-weight: bold;
     font-size: 22px;
     padding-top: 22px;

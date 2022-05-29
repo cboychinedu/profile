@@ -35,6 +35,18 @@ def ContactPage():
     # Setting the contact page route 
     return render_template("contact.html")
 
+# Creating a route for the recent work route 
+@home.route("/recent-works", methods=["GET"])
+def RecentWorks(): 
+    # Setting the recent works page route 
+    return render_template("recentWorks.html")
+
+# Creating a route for the profile page 
+@home.route("/profile", methods=["GET"])
+def Profile(): 
+    # Setting the profile page route 
+    return render_template("profilePage.html")
+
 # Creating a route for downloading the certification 
 @home.route("/download/<name>", methods=["GET"])
 def Download(name): 

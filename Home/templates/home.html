@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{url_for('static', filename='Home/css/home.css')}}" >
     <title>Home</title>
@@ -36,22 +37,25 @@
               AMAZING TOGETHER   
         </h2> <br> 
 
-        <input type="button" class="contact-me" value="CONTACT ME"> 
-        <input type="button" value="PROJECTS" class="see-projects"> 
+        <input type="button" class="contact-me" value="EMAIL ME"> 
+        <input type="button" value="PROJECTS" class="see-projects" id="see-projects"> 
 
     </div>
 
      <!-- Adding cell blocks -->
      <div class="cell-blocks">
         <div class="block-1 block">
+            <i class='fas fa-address-card icon'></i>
             <h2 class="block-text"> Contact </h2>
 
         </div>
         <div class="block-2 block">
+            <i class='fas fa-book icon' ></i>
             <h2 class="block-text"> Recent Works </h2>
 
         </div>
         <div class="block-3 block">
+            <i class='fas fa-project-diagram icon' ></i>
             <h2 class="block-text"> Profile </h2>
 
         </div>
@@ -193,7 +197,7 @@
 
         </div>
 
-        <div class="software-div">
+        <div class="software-div-2">
             <ul class="div-2">
                 <li> 
                     <b> Frameworks: </b> Python-Flask, Django, Bootstrap. <br> 

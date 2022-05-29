@@ -44,9 +44,13 @@ body {
     height: 328px;
     width: 265px;
     margin-left: 20px;
-    border: 20px solid #201e1e;
-    border-radius: 65px;
+    border: 8px solid #30222c;
+    border-radius: 17px;
     margin-right: 20px;
+}
+.block:hover, 
+.block:focus {
+    box-shadow: 0px 2px 43px -19px;
 }
 .block-1 {
     background-color: #9a3d1ff7;
@@ -63,7 +67,14 @@ body {
 .block-text {
     text-align: center;
     font-size: 28px;
-    padding-top: 108px;
+    padding-top: 41px;
+}
+.icon {
+    font-size: 97px;
+    margin: auto;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 53px;
 }
 
 @keyframes animination {
@@ -508,10 +519,10 @@ ul li b {
     margin-top: 195px;
 }
 .software-image {
-    margin-top: -94px;
-    height: 538px;
+    margin-top: 0px;
+    height: 403px;
     box-shadow: 1px 5px -8px 4px;
-    width: 486px;
+    width: 415px;
     float: left;
     border: 6px solid #28231c;
     border-radius: 25px;
@@ -536,7 +547,8 @@ ul li b {
     padding-top: 0px;
     margin-top: 145px;
 }
-.software-div {
+.software-div, 
+.software-div-2 {
     line-height: 45px;
     margin-left: -6px;
     padding-top: 39px;
@@ -564,6 +576,7 @@ ul li b {
         line-height: 2;
         height: 775px;
         margin-top: 152px;
+        width: 95%; 
         margin-bottom: 100px;
     }
     .main-nav {
@@ -629,50 +642,53 @@ ul li b {
         font-size: 2rem; 
     }
     .image-file {
-        margin-top: 42px; 
-        height: 282px;
+        margin-top: 31px;
+        height: 198px;
         border: 20px solid #29251e;
         box-shadow: -1px 1px 18px -2px;
-        width: 271px;
+        width: 197px;
     }
     .i-section {
-        margin-top: -208px; 
+        margin-top: -92px; 
     }
     .image-div {
-        height: 304px;
-        margin-bottom: 118px; 
+        height: 318px;
+        margin-bottom: 118px;
         float: left;
         margin-right: 5px;
-        margin-left: -30px;
+        margin-left: 0px;
         border-radius: 10px;
-        padding-left: 52px;
-        padding-right: 44px;
-        background-color: black;
-        padding-top: 0px;
+        padding-left: 38px;
+        padding-right: 27px;
+        /* background-color: #201e1e; */
+        padding-top: 19px;
     }
     .second-section {
         margin-top: 415px; 
     }
     .ii-section {
         width: 95%;
-        height: 469px;
-        padding-right: 15px;
+        height: 758px;
+        padding-right: 0px;
+        margin-top: 721px;
+        margin-left: 0px;
+        margin-right: 0px;
         /* border: 2px solid green;  */
     }
     .img-div-2 {
-        float: none; 
+        float: none;
         padding-right: 0px;
         margin-right: 0px;
-        padding-left: 13px;
-        margin-left: 1px; 
-        margin-bottom: 0px; 
-        height: 418px; 
+        padding-left: 4px;
+        margin-left: 1px;
+        margin-bottom: 0px;
+        height: 418px;
     }
     .process {
         margin-top: 62px;
-        height: 339px;
-        box-shadow: none; 
-        width: 326px;
+        height: 267px;
+        box-shadow: none;
+        width: 283px;
         float: left;
         border-radius: 13px;
     }
@@ -681,6 +697,7 @@ ul li b {
     }
     .text-div-2 {
         padding-left: 0px; 
+        margin-top: 150px; 
     }
     .heading-para {
         font-size: 34px;
@@ -699,43 +716,51 @@ ul li b {
         padding-bottom: 2px;
     }
     .img-div-3 {
-        padding-left: 52px; 
+        padding-left: 52px;
         padding-right: 0px;
-        margin-top: -600px; 
-        height: 635px;
-        margin-bottom: -63px; 
-        margin-left: -39px; 
+        margin-top: -596px;
+        height: 747px;
+        margin-bottom: -63px;
+        margin-left: -39px;
         margin-right: -16px;
     }
     .software-eng {
-        margin-top: 766px;
+        margin-top: 200px;
         width: 95%; 
     }
     .software-div {
-        margin-left: -30px; 
+        margin-left: 0px;
+        padding-top: 403px;
+        font-size: 12px;
+        padding-left: 0px;
+        width: 96%; 
+    }
+    .software-div-2 {
+        margin-left: 0px;
+        padding-top: 66px;
+        font-size: 12px;
+        padding-left: 0px;
+        width: 96%;
     }
     .software-image {
-        margin-top: -189px;
-        height: 618px;
+        margin-top: 661px;
+        height: 298px;
         box-shadow: none;
-        width: 419px;
+        width: 318px;
         float: right;
+        margin-right: 13px;
         border-radius: 5px;
     }
     .heading-para-eng {
-        margin-top: 39px;
-        font-size: 45px;
+        margin-top: -59px;
+        font-size: 30px;
+        margin-left: 20px;
         line-height: 44px;
     }
-    .third-section {
-        margin-top: 915px; 
-        padding-left: 0px; 
-        width: 99%;
-    }
     .heading-para-3 {
-        padding-top: 9px; 
-        font-size: 34px; 
-        padding-left: 33px; 
+        padding-top: 9px;
+        font-size: 28px;
+        padding-left: 0px; 
     }
     .pdf-div-1 {
         display: grid;
@@ -810,7 +835,8 @@ ul li b {
         padding-right: 93px;
     }
     .third-section {
-        margin-bottom: 986px;
+        margin-bottom: 588px;
+        margin-top: 1652px;
     }
     .s-footer-para a {
         font-size: 12px; 
@@ -823,5 +849,71 @@ ul li b {
     }
     .lst-footer {
         margin-top: -61px; 
+    }
+    .cell-blocks {
+        display: flex;
+        justify-content: center;
+        margin-top: -77px;
+        margin-left: 31px;
+    }
+    .block {
+        height: 168px;
+        width: 231px;
+        margin-left: -8px;
+        border: 8px solid #30222c;
+        border-radius: 17px;
+        margin-right: 17px;
+    }
+    .icon {
+        font-size: 32px;
+        margin: auto;
+        padding-left: 32%;
+        padding-right: 27%;
+        padding-top: 53px;
+    }
+    .block-text {
+        text-align: center;
+        font-size: 13px;
+        padding-top: 2px;
+    }
+    .i-section {
+        width: 97%; 
+        height: 1345px;
+    }
+    .first-section {
+        margin-left: 1px; 
+    }
+    .text-div {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .desc-para {
+        font-size: 16px;
+    }
+    .text-div {
+        padding-right: 20px;
+        padding-left: 20px;
+        height: 775px;
+        padding-top: 0px;
+    }
+    .second-section {
+        width: 97%;
+    }
+    .list-2 {
+        padding-right: 20px;
+    }
+    .chem-eng-div {
+        border: 10px solid #29251e;
+        background-color: #201e1e;
+        border-radius: 16px;
+        height: 938px;
+        margin-top: 136px;
+        width: 92%;
+        padding-left: 0px;
+        padding-top: 43px;
+        padding-right: 4px;
+    }
+    .div-2 {
+        padding-right: 9px;
     }
 }

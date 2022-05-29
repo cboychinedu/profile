@@ -2,6 +2,13 @@
 let google_btn = document.getElementById("google-btn"); 
 let facebook_btn = document.getElementById("facebook-btn"); 
 let spe_btn = document.getElementById("spe-btn"); 
+let projects_btn = document.getElementById("see-projects"); 
+
+// Adding event listener for the see projects button 
+projects_btn.addEventListener("click", (event) => {
+    // Execute the block of code below if the project button was clicked 
+    location.href = "/projects"; 
+})
 
 // Adding event listeners for the google button 
 google_btn.addEventListener("click", (event) => {
