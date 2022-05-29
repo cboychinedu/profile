@@ -2,6 +2,7 @@
 
 # Importing the necessary modules 
 import os
+from urllib import request
 from flask import Blueprint 
 from flask import send_file
 from flask import render_template, redirect, url_for 
@@ -28,6 +29,15 @@ def AboutPage():
     # Setting the about page route 
     return render_template("about.html")
 
+# Creating a route for sending emails 
+@home.route("/send-emails", methods=["POST", "GET"])
+def SendEmails(): 
+    # Creating a route for sending emails 
+    if request.method == "POST": 
+        return "send email"; 
+
+    # If the request is a get request 
+    return render_template("sendEmail.html")
 
 # Creating the contact page route 
 @home.route("/contact", methods=["GET"])

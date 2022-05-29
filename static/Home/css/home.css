@@ -15,7 +15,9 @@
 .desc-para {
     font-size: 22px; 
 }
-
+a {
+    font-family: 'PT Sans', sans-serif;
+}
 body {
     font-family: 'PT Sans', sans-serif;
 }
@@ -32,6 +34,7 @@ body {
 
 }
 .main-nav {
+    font-family: 'PT Sans', sans-serif;
     background-image: url("../images/stars3.jpg"); 
     animation: animination 75s linear infinite;
 }
@@ -70,7 +73,7 @@ body {
     padding-top: 41px;
 }
 .icon {
-    font-size: 97px;
+    height: 97px;
     margin: auto;
     padding-left: 30%;
     padding-right: 30%;
@@ -443,6 +446,7 @@ ul li b {
     align-items: center;
     padding-top: 500px;
     margin: auto;
+    padding-top: 55px; 
     padding-bottom: 50px;
     align-content: center;
     width: 78%;
@@ -612,10 +616,12 @@ ul li b {
     }
     .home, .about, .contact,
     .email, .projects, .internship {
-        padding-top: 11px;
-        padding-bottom: 8px;
-        padding-left: 11px;
-        font-size: 18px;
+        padding-top: 17px;
+        padding-bottom: 15px;
+        padding-left: 19px;
+        padding-right: 11px;
+        font-size: 17px;
+        font-family: 'PT Sans', sans-serif;
         margin-right: -26px;
     }
     .home:hover, .home:focus, 
@@ -631,13 +637,13 @@ ul li b {
         font-weight: bold;
         padding-top: 17px;
         padding-bottom: 15px;
-        padding-left: 11px;
+        padding-left: 19px;
         padding-right: 11px;
         margin-left: -6px;
         margin-right: -7px;
         border-radius: 5px;
         border-bottom: 2px solid #6e5520;
-}
+    }
     .build-para {
         font-size: 2rem; 
     }
@@ -668,7 +674,7 @@ ul li b {
     }
     .ii-section {
         width: 95%;
-        height: 758px;
+        height: 839px;
         padding-right: 0px;
         margin-top: 721px;
         margin-left: 0px;
@@ -767,10 +773,12 @@ ul li b {
         width: 30%;
     }
     .download-pdf-btn {
-        width: 94%;
+        width: 207px;
+        font-size: 12px;
     }
     .spe-btn {
-        width: 102%;
+        width: 207px;
+        font-size: 12px;
         margin-right: 43px;
         margin-left: -9px; 
     }
@@ -810,6 +818,10 @@ ul li b {
         align-content: center;
         justify-items: self-end;
         padding-bottom: 0px; 
+        border-top: 13px solid #37312d; 
+        border-right: 13px solid #37312d; 
+        border-left: 13px solid #37312d; 
+        width: 94%; 
     }
     .footer ul {
         margin-left: -26px; 
@@ -835,17 +847,25 @@ ul li b {
         padding-right: 93px;
     }
     .third-section {
-        margin-bottom: 588px;
+        margin-bottom: 1046px;
         margin-top: 1652px;
     }
     .s-footer-para a {
         font-size: 12px; 
     }
+    .software-div-list {
+        padding-left: 24px;
+        
+    }
     .second_footer {
         height: 34px;
         padding-top: 20px;
         margin-top: -27px;
-        margin-bottom: 13px;
+        width: 94%;
+        margin-bottom: 0px; 
+        border-right: 13px solid #37312d;
+        border-left: 13px solid #37312d;
+        border-bottom: 13px solid #37312d;
     }
     .lst-footer {
         margin-top: -61px; 
@@ -865,7 +885,7 @@ ul li b {
         margin-right: 17px;
     }
     .icon {
-        font-size: 32px;
+        height: 32px;
         margin: auto;
         padding-left: 32%;
         padding-right: 27%;
@@ -900,7 +920,8 @@ ul li b {
         width: 97%;
     }
     .list-2 {
-        padding-right: 20px;
+        padding-right: 7px;
+        padding-left: 30px; 
     }
     .chem-eng-div {
         border: 10px solid #29251e;
