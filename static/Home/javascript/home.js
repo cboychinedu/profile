@@ -2,7 +2,14 @@
 let google_btn = document.getElementById("google-btn"); 
 let facebook_btn = document.getElementById("facebook-btn"); 
 let spe_btn = document.getElementById("spe-btn"); 
+let contact_me_btn = document.getElementById("contact-me"); 
 let projects_btn = document.getElementById("see-projects"); 
+
+// Adding event listener for the contact me button 
+contact_me_btn.addEventListener("click", (event) => {
+    // Execute the block of code below 
+    location.href = "/send-emails"; 
+})
 
 // Adding event listener for the see projects button 
 projects_btn.addEventListener("click", (event) => {

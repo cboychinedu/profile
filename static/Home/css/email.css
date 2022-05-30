@@ -578,6 +578,7 @@ ul li b {
 }
 .email-value {
     width: 300px;
+    margin-top: 9px; 
     outline: 2px solid #bb5222; 
     height: 43px;
     font-size: 14px; 
@@ -589,6 +590,7 @@ ul li b {
     width: 300px;
     height: 43px;
     padding-left: 12px;
+    margin-top: 9px; 
     font-size: 14px; 
     border-radius: 5px;
     margin-bottom: 20px;
@@ -596,6 +598,7 @@ ul li b {
 }
 .email-message {
     height: 300px;
+    margin-top: 9px; 
     width: 589px;
     margin-bottom: 26px;
     outline: none;
@@ -638,6 +641,16 @@ ul li b {
         margin-top: 152px;
         width: 95%; 
         margin-bottom: 100px;
+    }
+    .form-div {
+        width: 84%; 
+    }
+    .email-message {
+        width: 316px; 
+    }
+    .send-email {
+        width: 316px;
+        height: 56px;
     }
     .main-nav {
         height: 48px; 
@@ -877,7 +890,7 @@ ul li b {
         border-top: 13px solid #37312d; 
         border-right: 13px solid #37312d; 
         border-left: 13px solid #37312d; 
-        width: 94%; 
+        width: 100%; 
     }
     .footer ul {
         margin-left: -26px; 
@@ -917,7 +930,7 @@ ul li b {
         height: 34px;
         padding-top: 20px;
         margin-top: -27px;
-        width: 94%;
+        width: 100%;
         margin-bottom: 0px; 
         border-right: 13px solid #37312d;
         border-left: 13px solid #37312d;

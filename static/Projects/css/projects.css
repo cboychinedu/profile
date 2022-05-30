@@ -15,12 +15,17 @@
     padding-bottom: 50px;
     
 }
+.send-mails {
+    color: white; 
+    font-weight: bold;
+}
 .home:hover, .home:focus, 
 .about:hover, .about:focus, 
 .contact:hover, .contact:focus, 
 .email:hover, .email:focus, 
 .projects:hover, .projects:focus, 
-.internship:hover, .internship:focus {
+.internship:hover, .internship:focus, 
+.send-mails:hover{
     text-decoration: underline;
     background-color: #201e1e;
     text-decoration: none;
@@ -225,7 +230,7 @@ b {
         margin-bottom: 15px;
     }
     .home, .about, .contact,
-    .email, .projects, .internship {
+    .email, .projects, .internship, .send-mails {
         padding-top: 17px;
         padding-bottom: 15px;
         padding-left: 19px;
@@ -239,7 +244,7 @@ b {
     .contact:hover, .contact:focus, 
     .email:hover, .email:focus, 
     .projects:hover, .projects:focus, 
-    .internship:hover, .internship:focus {
+    .internship:hover, .internship:focus{ 
         text-decoration: underline;
         background-color: white;
         text-decoration: underline;

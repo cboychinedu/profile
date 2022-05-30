@@ -2,9 +2,10 @@
 
 # Importing the necessary modules 
 import os
-from urllib import request
+from flask import request
 from flask import Blueprint 
 from flask import send_file
+from .send_email import SendEmail
 from flask import render_template, redirect, url_for 
 
 # Getting the path to the images 
@@ -34,7 +35,18 @@ def AboutPage():
 def SendEmails(): 
     # Creating a route for sending emails 
     if request.method == "POST": 
-        return "send email"; 
+        # Getting the json object 
+        data = request.get_json(); 
+
+        # 
+        try: 
+            email = SendEmail(); 
+            email.sendMessage(data["Fullname"], data["Email"], data["Message"])
+            return {"message": "Message sent", "status": "success"}
+
+        # 
+        except Exception as e: 
+            return { "status": "error", "message": "Error sending mail"}
 
     # If the request is a get request 
     return render_template("sendEmail.html")
